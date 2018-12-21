@@ -55,3 +55,14 @@ Attention: in images x - top to bottom, y - left to right.
 --fps, type=int, default=15, help=frames per sec. of output video
 ----plot_step, type=int, default=5, help=number of steps between field plot samples.
  ```
+
+### Examples:
+- Tower exmple, its input image and binary map is attached. You can create you own motion strokes and animate the image!<br />
+    <p align="center">
+      <img src=examples/ezgif-2-3b462a632393.gif width="400"/>
+    </p>
+    
+- Water motion, we tried to imitate a motion of a given video, given its first frame only. (right: original, left: our animation)<br />
+    <p align="center">
+      <img src=examples/ezgif-2-27d9578b6a3c.gif width="500"/>
+    </p>
