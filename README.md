@@ -1,5 +1,5 @@
 # Image-to-Cinemagrph
-Generate an animation out of your input image, it is still under active development.
+The goal of this work is to generate an animation out of your input image, it is still under active development.
 
 The code was written by [Ma'ayan Shuvi](https://mShuvi.github.io/) under supervision of [Kfir Aberman](https://kfiraberman.github.io/).
 
