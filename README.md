@@ -49,16 +49,16 @@ Attention: in images x - top to bottom, y - left to right.
 --binary_map_path <path binary map of the input image>        
 --storkes_txt_path <path to txt which include strokes om motion>
     
---updatebinarymap, action='store_false', help='if specified, add edges to binary map in field calculation')       
---H , type=int, default=153, help='scale input image to this height'
---W', type=int, default=360, help='scale input image to this width'
+--updatebinarymap, action='store_false', help='if specified, add edges to binary map in field calculation.   
+--H , type=int, default=153, help='scale input image to this height.
+--W, type=int, default=360, help='scale input image to this width.
         
---warping_field_alpha, type=float, default=0.5, help=# of input image channels
---th, type=int, default=0.5, help=Binarymap threshold for input binarymap (RGB to binary image                            
- --alpha_exp, type=float, default=0.001, help=controls the interpolation in field generation                            
---no_original_vid', action='store_true', help=if specified, create a video of frames without hallucination effect    
+--warping_field_alpha, type=float, default=0.5, help=# of input image channels.
+--th, type=int, default=0.5, help=Binarymap threshold for input binarymap (RGB to binary image).                            
+ --alpha_exp, type=float, default=0.001, help=controls the interpolation in field generation.                            
+--no_original_vid, action='store_true', help=if specified, create a video of frames without hallucination effect.    
 
---nSegments, type=int, default=20, help=number of frames in output video
+--nSegments, type=int, default=20, help=number of frames in output video.
 --fps, type=int, default=15, help=frames per sec. of output video
-----plot_step, type=int, default=5, help=number of steps between field plot samples
+----plot_step, type=int, default=5, help=number of steps between field plot samples.
  ```
