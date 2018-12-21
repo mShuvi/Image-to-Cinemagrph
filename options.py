@@ -23,7 +23,7 @@ class Options():
         parser.add_argument('--storkes_txt_path', type=str, default='strokes.txt', help='path to txt which include strokes om motion')
         parser.add_argument('--project_name', type=str, default="sandstorm_animation", help='name of project')
         
-        parser.add_argument('--updatebinarymap', action='store_false', help='if specified, add edges to binary map in field calculation')        
+        parser.add_argument('--updatebinarymap', action='store_true', help='if specified, add static edges to binary map in field calculation')        
         parser.add_argument('--H', type=int, default=153, help='scale input image to this height')
         parser.add_argument('--W', type=int, default=360, help='scale input image to this width')
         
