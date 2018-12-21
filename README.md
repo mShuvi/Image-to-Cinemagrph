@@ -4,6 +4,24 @@ Generate an animation out of your input image, it is still under active developm
 The code was written by [Ma'ayan Shuvi](https://mShuvi.github.io/) under supervision of [Kfir Aberman](https://kfiraberman.github.io/).
 
 Our goal is to generate a Cinemagraph, which contains natueral subtle motion, out of a signle input image.
+- Given input image and its binary map:
+<div id="imgs">
+    <p align="center">
+    <div class="inline-block">
+           <img src="./imgs/sandstorm.png" width="400"/>
+    </div>
+    <div class="inline-block">
+          <img src="./imgs/sandstorm_bin.png" width="400" />
+    </div>
+    </p>
+</div>
+
+- The output video:<br />
+    <p align="center">
+      <img src=imgs/ezgif-2-722106c253f8.gif width="400"/>
+    </p>
+       
+- The original output filel is in .mp4 format, can be found [here](https://github.com/mShuvi/Image-to-Cinemagrph/blob/master/imgs/looped_video.mp4).       
 
 ## Prerequisites
 - Python 2 or 3
@@ -14,8 +32,8 @@ Our goal is to generate a Cinemagraph, which contains natueral subtle motion, ou
 ```bash
 #!./script.sh
 python3 main.py
-```
-The option `--k_final` dictates the final number of returned points. The results will be saved at `../results/`. Use `--results_dir {directory_path_to_save_result}` to specify the results directory.
+```    
+
 
 ### Run on your own Image
 - Save your image 
