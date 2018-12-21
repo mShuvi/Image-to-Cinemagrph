@@ -7,10 +7,10 @@ Our goal is to generate a Cinemagraph, which contains natueral subtle motion, ou
 - Given input image and its binary map:
     <div id="imgs">
         <div class="inline-block">
-               <img src="./imgs/sandstorm.png" width="300"/>
+               <img src="./imgs/sandstorm.png" width="300"/> <img src="./imgs/sandstorm_bin.png" width="300" />
         </div>
         <div class="inline-block">
-              <img src="./imgs/sandstorm_bin.png" width="300" />
+              
         </div>
     </div>
 
