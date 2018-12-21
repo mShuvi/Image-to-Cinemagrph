@@ -8,10 +8,10 @@ Our goal is to generate a Cinemagraph, which contains natueral subtle motion, ou
 <div id="imgs">
     <p align="center">
     <div class="inline-block">
-           <img src="./imgs/sandstorm.png" width="400"/>
+           <img src="./imgs/sandstorm.png" width="380"/>
     </div>
     <div class="inline-block">
-          <img src="./imgs/sandstorm_bin.png" width="400" />
+          <img src="./imgs/sandstorm_bin.png" width="380" />
     </div>
     </p>
 </div>
