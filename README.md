@@ -11,7 +11,7 @@ Our goal is to generate a Cinemagraph, which contains natueral subtle motion, ou
 
 - The output video:<br />
     <p align="center">
-      <img src=imgs/ezgif-2-722106c253f8.gif width="400"/>
+      <img src=imgs/sandstorm_vidtogif.gif width="400"/>
     </p>
        
 - The original output filel is in .mp4 format, can be found [here](https://github.com/mShuvi/Image-to-Cinemagrph/blob/master/imgs/looped_video.mp4).       
@@ -42,7 +42,7 @@ Attention: in images x - top to bottom, y - left to right.
 --binary_map_path <path binary map of the input image>        
 --storkes_txt_path <path to txt which include strokes om motion>
     
---updatebinarymap, action='store_false', help='if specified, add edges to binary map in field calculation.   
+--updatebinarymap, action='store_true', help='if specified, add static edges to binary map in field calculation.   
 --H , type=int, default=153, help='scale input image to this height.
 --W, type=int, default=360, help='scale input image to this width.
         
