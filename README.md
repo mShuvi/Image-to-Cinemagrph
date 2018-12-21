@@ -4,7 +4,7 @@ Generate an animation out of your input image, it is still under active developm
 The code was written by [Ma'ayan Shuvi](https://mShuvi.github.io/) under supervision of [Kfir Aberman](https://kfiraberman.github.io/).
 
 Our goal is to generate a Cinemagraph, which contains natueral subtle motion, out of a signle input image.
-- Given input image and its binary map:
+- Given input image and its binary map:<br />
     <img src="./imgs/sandstorm.png" width="400"/> <img src="./imgs/sandstorm_bin.png" width="400" />
 
 
