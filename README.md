@@ -5,16 +5,14 @@ The code was written by [Ma'ayan Shuvi](https://mShuvi.github.io/) under supervi
 
 Our goal is to generate a Cinemagraph, which contains natueral subtle motion, out of a signle input image.
 - Given input image and its binary map:
-<div id="imgs">
-    <p align="center">
-    <div class="inline-block">
-           <img src="./imgs/sandstorm.png" width="380"/>
+    <div id="imgs">
+        <div class="inline-block">
+               <img src="./imgs/sandstorm.png" width="300"/>
+        </div>
+        <div class="inline-block">
+              <img src="./imgs/sandstorm_bin.png" width="300" />
+        </div>
     </div>
-    <div class="inline-block">
-          <img src="./imgs/sandstorm_bin.png" width="380" />
-    </div>
-    </p>
-</div>
 
 - The output video:<br />
     <p align="center">
